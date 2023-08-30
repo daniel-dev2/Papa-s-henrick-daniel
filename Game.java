@@ -83,7 +83,7 @@ public class Game
         spear = new Item("uma lanca afiada", 2000);
         croissant = new Item("um croissant fresquinho", 7000);
         bible = new Item("uma biblia sagrada", 500);
-        portao = new Item("o portao da casa do cliente", 80000);
+        portao = new Item("o portao da casa do cliente, aperte sair pra descer da moto e realizar a entrega", 80000);
         papyrus = new Item("um papel papiro antigo", 10);
 
         // setting room items
