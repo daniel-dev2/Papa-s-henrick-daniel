@@ -13,7 +13,7 @@ public class CommandWords
 {
     // a constant array that holds all valid command words
     private static final String[] validCommands = {
-        "ir", "sair", "ajuda", "voltar"
+        "ir", "sair", "ajuda", "voltar", "olhar"
     };
 
     /**
