@@ -88,6 +88,7 @@ public class Game
 
         // setting room items
         pizzeria.addItem(pizza);
+        pub.addItem(beer);
         square.addItem(newspaper);
         wall.addItem(spear);
         tower.addItem(croissant);
@@ -154,6 +155,9 @@ public class Game
         else if (commandWord.equals("voltar")) {
             back();
         }
+        else if (commandWord.equals("olhar")){
+            look();
+        }
         else if (commandWord.equals("sair")) {
             wantToQuit = quit(command);
         }
@@ -213,6 +217,9 @@ public class Game
             System.out.println(currentRoom.getLongDescription());
         }
 
+    }
+    public void look(){
+        System.out.println(currentRoom.getLongDescription());
     }
 
     /** 
